@@ -1,0 +1,17 @@
+# Folder Build CMake (Masa depan)
+build/
+cmake-build-debug/
+
+# File Object & Intermediate (Masa lalu)
+*.o
+*.i
+*.s
+
+# File Executable (Linux binary biasanya tidak ada ekstensi)
+# Kita bisa mendaftar nama-nama file executable kamu yang terlanjur ada
+hello
+multi
+single
+# Atau, ignore semua file yang TIDAK punya ekstensi (agak berisiko, tapi ampuh)
+# !*.* # File editor
+.vscode/
