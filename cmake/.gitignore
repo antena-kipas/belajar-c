@@ -1,0 +1,26 @@
+# 1. Folder Build (Wajib di-ignore)
+build/
+cmake-build-debug/
+bin/
+
+# 2. File Binary / Executable (Hasil compile)
+*.exe
+*.out
+*.o
+aplikasiku
+
+# 3. File Editor (VS Codium / VS Code)
+.vscode/
+.idea/
+*.swp
+
+# 4. File OS (Biasanya ada di Mac/Windows)
+.DS_Store
+Thumbs.db
+
+# 5. File CMake Generated (Jaga-jaga kalau ada di luar folder build)
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+compile_commands.json
